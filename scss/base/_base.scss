@@ -1,0 +1,39 @@
+
+body{
+    font-family: '游ゴシック体';
+    @media screen and(min-width:768px){
+        font-size: $fontSize;
+    }
+    @media screen and(min-width:600px){
+        font-size: 1.4rem;
+    }
+   
+}
+.button{
+    @include button;
+    @media screen and(max-width:768px){
+        width: 90%;
+    }
+    a{
+       @include button-a;
+        &:hover{
+            opacity: .7;
+        }
+        &:active{
+            background-color: #A4ABB0;
+        }
+    }
+}
+.font{
+    font-family: 'Sorts Mill Goudy', serif;
+}
+.bg-color{
+    background-color: #fafafa;
+}
+.bd-line{
+    width: 100%;
+    
+    margin-bottom:3vw;
+    border: none;
+    border-bottom: 1px solid #ADADAD;
+}

@@ -1,0 +1,15 @@
+.container{
+    width: 100vw;
+    height: 22.421875vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 180px;
+    background-color: $containerBcolor;
+    
+    h2{
+        font-size: 4.8rem;
+        color: $cWhite;
+        align-items: center;
+    }
+}

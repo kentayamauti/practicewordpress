@@ -1,0 +1,62 @@
+.contact{
+    
+    margin: 12vw auto 5vw;
+    @media screen and(max-width:768px){
+        margin-bottom:55vw ;
+    }
+    h2{
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 3vw;
+        font-weight: bold;
+        color: #252525;
+        br{
+            display: none;
+            @media screen and(max-width:768px){
+                display: block;
+            }
+        }
+    }
+    .contact-button{
+        width: (520/1280)*100%;
+        min-width: 500px;
+        margin: 2vw auto;
+        border-radius: 60px;
+        
+        @media screen and(max-width:768px){
+            display: none;
+        }
+        a{
+            background: linear-gradient($contactButton);
+        font-size: 3.2rem;
+        font-weight: bold;
+        letter-spacing: 5px;
+    padding: 32px;
+    border-radius: 60px;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-align: center;
+    &:hover {
+        top: -4px;
+        box-shadow: 0 7px 0 #364D6A;
+      }
+      &:active {
+        top: 3px;
+        box-shadow: none;
+      }
+    @media screen and(max-width:768px){
+        font-size: 1.6rem;
+    }
+        }
+    }
+    .button{
+        display: none;
+        @media screen and(max-width:768px){
+            display: block;
+        }
+    }
+}

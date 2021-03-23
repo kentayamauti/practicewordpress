@@ -1,0 +1,58 @@
+.office{
+    width: 100vw;
+    background-color: $cBcolor;
+    &-box{
+        @include aboutAWidth;
+        display: flex;
+        justify-content: space-between;
+        padding:12vw 5vw;
+        min-width: 700px;
+        @media screen and(max-width:700px){
+            font-size: 1.6rem;
+            flex-direction: column;
+            min-width: inherit;
+            padding: 10vw 0;
+        }
+        h2{
+            font-size: 3.6rem;
+            display: inline-block;
+            margin-bottom: 2.5vw;
+            font-family:$cFontSerif;
+        }
+        dl{
+            font-size: 2rem;
+            white-space: nowrap;
+            line-height: 2.5;
+            @media screen and(max-width:768px){
+                font-size: 1.6rem;
+            }
+            dt{
+                float: left;
+              }
+              
+              dt::after{
+                content: "："
+              }
+        }
+
+        // &-1{
+
+        // }
+    }
+    figure{
+        margin: 0;
+    width: 50%;
+    @media screen and(max-width:700px){
+        width: 50%;
+        margin-left: auto;
+        margin-top: 2vw;
+    }
+    @media screen and(max-width:425px){
+        width: 100%;
+        
+    }
+    img{
+        width: 100%;
+    }
+    }
+}

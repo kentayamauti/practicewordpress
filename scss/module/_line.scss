@@ -1,0 +1,9 @@
+.line{
+    width: (1104/1280)*100%;
+    height: 3px;
+    margin: 10vw auto;
+    background-color: $cLine;
+    @media screen and(max-width:768px){
+        display: none;
+    }
+}

@@ -1,0 +1,39 @@
+.select{
+    width: 100vw;
+    border-bottom: 1px solid #212138;
+    display: flex;
+    justify-content: center;
+    &-box{
+        width: 30%;
+        // min-width: ;
+        padding:1.5vw 5vw;
+        text-align: center;
+        @media screen and(max-width:600px){
+            padding: 3vw 0;
+        }
+        strong{
+            font-size: 2.4rem;
+            @media screen and(max-width:600px){
+                font-size: 1.2rem;
+                white-space: nowrap;
+            }
+        }
+        
+            a{
+                display: block;
+                width: 12px;
+            height: 12px;
+            margin: 0 auto;
+            text-align: center;
+            border-bottom: solid 2px #212138;
+            border-left: solid 2px #212138;
+            transform: rotate(-45deg);
+            @media screen and(max-width:600px){
+                width: 7px;
+                height: 7px;
+            }
+            }
+        
+    }
+
+}

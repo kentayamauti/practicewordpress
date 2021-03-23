@@ -1,0 +1,101 @@
+main{
+    width: 100vw;
+    @media screen and(max-width:768px){
+        margin-bottom: 45vw;
+}
+    .service{
+        width: $cWidth;
+        // min-width: 900px;
+        margin: 0 auto;
+        margin-bottom: 5vw;
+        @media screen and(max-width:768px){
+                text-align: center;
+               
+        }
+        h2{
+            @include h2;
+            display: block;
+        width: (1104/1280)*100%;
+        font-family: 'Sorts Mill Goudy', serif;
+        
+            @media screen and(max-width:768px){
+                font-size: 2.4rem;
+                margin: 0 auto 9vw;
+                
+            }
+        }
+        &-container{
+            width: 100%;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 3vw;
+            margin-bottom: 5vw;
+            @media screen and(max-width:768px){
+                grid-template-columns: 1fr;
+                
+            }
+            li{
+                @media screen and(max-width:768px){
+                    margin-bottom:15vw;
+                }
+                img{
+                    @include img-objectfit;
+                }
+        p{
+            @media screen and(max-width:768px){
+                width: 86%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 2;
+    font-size: 1.4rem;
+            }
+        }
+            }
+            // &-li-position-bottom{
+    //             width: 90%;
+    // margin: 0 auto;
+    // border: 3px solid;
+    // border-radius: 5px;
+    // padding: 5px;
+    // transform: translateY(-3vw);
+    // background-color: $cServiceBkColor;
+    h3{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        border: 3px solid $cServiceBkColor;
+        border-radius: 5px;
+        padding: 5px;
+        transform: translateY(-3vw);
+        background-color: $cServiceBkColor;
+        font-size: 2rem;
+        color: $cWhite;
+        @media screen and(max-width:768px){
+            transform: translateY(-4vw);
+        }
+        @media screen and(max-width:425px){
+            transform: translateY(-7vw);
+        }
+        div{
+            display: inline-block;
+            width: 15%;
+            background-color: $cServiceBkColor;
+        }
+        strong{
+            font-size: 2.4rem;
+    display: inline-block;
+    width: 85%;
+    background: $cWhite;
+    color: $cBlack;
+    text-align: center;
+    }
+    // }
+            }
+
+                
+                    }
+                }
+                
+}
+        
+    

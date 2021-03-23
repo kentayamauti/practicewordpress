@@ -1,0 +1,36 @@
+@mixin button{
+    width: 23vw;
+    min-width: 250px;
+    margin: 0 auto;
+}
+
+@mixin button-a {
+    background-color: #202037;
+    padding: 20px ;
+    border-radius: 50px;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+@mixin h2{
+    font-size: 4.8rem;
+            display: inline-block;
+            margin-bottom: 30px;
+            color: #A4ABB0;
+            letter-spacing: 5px;
+            @media screen and(max-width:768px){
+                margin-bottom: 8vw;
+            }
+}
+@mixin img-objectfit {
+    width: 100%;
+    object-fit: cover;
+}
+@mixin aboutAWidth {
+    width: 77.890625vw;
+    min-width: 850px;
+    margin: 0 auto;
+}

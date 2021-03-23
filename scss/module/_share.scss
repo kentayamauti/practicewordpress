@@ -1,0 +1,116 @@
+.share{
+    width: 100vw;
+    display: flex;
+   
+    margin-bottom: 5vw;
+    @media screen and(max-width:768px){
+        margin: 8vw auto 18vw;
+    width: 86.25%;
+        display: block;
+    }
+    &-container-dl{
+        
+        transform: translateY(-5vw);
+        padding: 6.25vw 12.5vw;
+        width:(726/1280)*100%;
+        background:linear-gradient(#364D6A,#599DC0);
+        @media screen and(max-width:768px){
+            margin-top: 8vw;
+            transform: none;
+            color: #333;
+            display: inline-block;
+            margin-bottom:20px ;
+            background:white ;
+            padding: 0;
+            width: 100%;
+        }
+            dd{
+                width: 100%;
+                color: $cWhite;
+                margin-bottom: 2.92965vw;
+                letter-spacing:1.5px;
+                font-weight: bold;
+                font-size: 2.4rem;
+                
+                @media screen and(max-width:1000px){
+                    font-size: 2rem;
+                }
+                @media screen and(max-width:768px){
+                    
+                    line-height: 2;
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 12vw;
+    font-size: 2.2rem;
+                }
+              
+            }
+            dt{
+                width: 100%;
+                color: $cWhite;
+                letter-spacing: 10px;
+                @media screen and(max-width:768px){
+                    color: black;
+                    letter-spacing: 5px;
+                }
+            }
+        }
+        &-contant{
+            
+            position: relative;
+            flex-direction: row-reverse;
+            background-color: #FAFAFA;
+            z-index: 3;
+            width: (643/1280)*100%;
+            padding: 6.5vw 4vw;
+            @media screen and(max-width:768px){
+                display:none;
+            }
+            h2{
+                font-size: 2.4rem;
+                color: #A4ABB0;
+                display: inline-block;
+                margin-bottom:20px ;
+            }
+            dl{
+                width:(500/643)*100%;
+                margin: auto;
+                display: flex;
+                margin-bottom: 20px;
+                dt{
+                    margin-right: 20px;
+
+                }
+            }
+        }
+        &-contant-ps{
+            display: none;
+            @media screen and(max-width:768px){
+                display: block;
+                margin-top: 15vw;
+            }
+            h2{
+                display: none;
+                @media screen and(max-width:768px){
+                    display: block;
+                    font-size: 2.4rem;
+                    color: #364D6A;
+                    display: inline-block;
+                    margin-bottom: 3vw;
+                    margin-left: 2vw;
+                    letter-spacing: 5px;
+                }
+
+            }
+            dl{
+                margin-left: 2vw;
+                display: flex;
+                padding-bottom: 5vw;
+                border-bottom: 10px solid;
+                dd{
+                    margin-right: 5vw;
+                }
+            }
+
+        }
+    }

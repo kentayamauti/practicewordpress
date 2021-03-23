@@ -1,0 +1,94 @@
+.number{
+    width: 100vw;
+    background-color: $cServiceColor;
+    padding: 0.5vw 0;
+    &-box{
+        display: flex;
+        justify-content: space-between;
+        background-color: $cWhite;
+        width: 99%;
+        padding: 5vw 4vw 2.5vw;
+        margin: 0 auto;
+        font-size:1.4rem ;
+        @media screen and(max-width:768px){
+            display: block;
+            padding: 10vw 3vw;
+        }
+        &-left{
+            width: 50%;
+            @media screen and(max-width:768px){
+                width: 90%;
+            margin:0 auto 2vw;
+            }
+            &-h2{
+                margin-bottom: 2vw;
+                
+                h2{
+                    display: flex;
+                    align-items: center;
+                    font-size: 2.4rem;
+                @media screen and(max-width:768px){
+                    font-size: 1.6rem;
+                    margin-bottom: 5vw;
+                }
+                    div{
+                        padding: 1.4vw;
+                        background-color:$containerBcolor;
+                        color: $cWhite;
+                    }
+                    strong{
+                        margin-left: 2vw;
+                    }
+                }
+            }
+            p{
+                color: #888;
+                line-height: 2;
+            }
+        }
+        &-right{
+            width: 45%;
+            padding: 3vw;
+            background-color: #fafafa;
+            text-align: center;
+            @media screen and(max-width:768px){
+                width: 90%;
+            margin: auto;
+            }
+            h3{
+                display: inline-block;
+                font-size: 2rem;
+                text-align: center;
+                margin-bottom: 2vw;
+                &::before{
+                    background-image: url(img/module/service-logo-1@2x.png);
+                    content: '';
+                    display: inline-block;
+                    width: 2vw;
+    height: 2vw;
+    margin-right: 2vw;
+    background-size: cover;
+                    vertical-align: middle;
+                }
+                &::after{
+                    background-image: url(img/module/service-logo-1@2x.png);
+                    content: '';
+                    display: inline-block;
+                    width: 2vw;
+    height: 2vw;
+    margin-left: 2vw;
+    background-size: cover;
+                    vertical-align: middle;
+                }
+            }
+                    ul{
+                        li{
+                            text-align: left;
+                            list-style: circle;
+                            line-height: 2;
+                            margin-left: 2vw;
+                        }
+                    }
+        }
+    }
+}
