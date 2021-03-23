@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.min.css" type="text/css">
+
+    <link href="slick-1.8.1/slick/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="slick-1.8.1/slick/slick.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+   <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <title>About</title>
+</head>
+<body>
+<!-- header -->
+<header class="header bg-color">
+    <div class="header-container">
+    <h1><a href="index.html"><img src="img/module/header_logo@2x.png" alt="藤岡行政書士事務所"></a></h1>
+    <ul class="header-container-ul">
+    <li class="header-container-ul-li font"><a href="about.html">About</a></li>
+    <li class="header-container-ul-li font"><a href="service.html">Service</a></li>
+    <li class="header-container-ul-li font"><a href="price.html">Price</a></li>
+    <li class="header-container-ul-li font"><a href="blog.html">Blog</a></li>
+    <li class="header-container-ul-li font"><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+    </header><!-- /header -->
+    
+<!-- container -->
+<div class="container">
+<h2 class="font">About</h2>
+</div><!-- /container -->
+
+<!-- slider -->
+<div class="container-position">
+<section class="slider">
+<figure><img src="img/module/slider-1@2x.png"></figure>
+<figure><img src="img/module/slider-2@2x.png"></figure>
+<figure><img src="img/module/slider-3@2x.png"></figure>
+</section>
+</div><!-- /slider -->
+
+<!-- support -->
+<div class="support">
+<h2 class="font">Support your<br>web service</h2>
+<p>webを通して人々の心や生活が豊かになるよう、<br>法律の面からサポートいたします。</p>
+</div><!-- /support -->
+
+<!-- fan -->
+<div class="fan">
+<h2>制作会社での経歴を活かしたご提案ができます。</h2>
+<div class="fan-container">
+<article>
+<p>私はこれまでにIT系企業においてweb制作、新規webサービスの立ち上げ、ファンクラブビジネスを経験し「webが持つ可能性」を信じるようになりました。<br>「webが持つ可能性」とはwebを通して人々の心や生活がもっと豊かになっていくことです。   </p>
+<p>当事務所ではIT法務（契約書作成や各種許認可手続きなど）を中心に、海外技術者のビザ手続き、そしてwebを介した新たなビジネスモデルとして評判の民泊（登録手続き）など、広くwebに関する手続きのサポートを行ってまいります。</p>
+</article>
+<article>
+<p>書類作成など法律面からあなたのwebサービスのサポートをします。
+新たなwebサービスが生まれ、そのサービスを利用することで多くの人々の心や生活が豊かになる<br>
+そしていつか日本が世界のIT分野をリードする日がくることを願っています。</p>
+</article>
+</div>
+</div><!-- fan -->
+
+<!-- office -->
+<div class="office">
+<div class="office-box">
+<div class="office-box-1">
+<h2 class="font">Office data</h2>  
+<dl>
+<dt>名称</dt>
+<dd>藤岡行政書士事務所</dd>
+<dt>代表</dt>
+<dd>藤岡雅也</dd>
+<dt>行政書士番号</dt>
+<dd>0000000000000</dd>
+<dt>取り扱い案件</dt>
+<dd>労務、民泊、Visa</dd>
+<dt>電話番号</dt>
+<dd>06-5555-5555</dd>
+<dt>FAX</dt>
+<dd>06-5555-5555</dd>    
+</dl>  
+</div>
+<figure><img src="img/module/office-img@2x.png" alt=""></figure>
+</div>
+</div>
+
+<!-- maps -->
+<div id="map"></div>
+<!-- maps -->
+
+<!-- Contact -->
+<div class="contact">
+<h2>まずはメールで<br>お気軽にお問い合わせください</h2>
+<div class="contact-button font"><a href="contact.html">CONTACT</a></div>
+<div class="button"><a href="contact.html">一覧を見る</a></div>
+</div><!-- contact -->
+
+<!-- footer -->
+<footer></footer><!-- footer -->
+
+<!-- maps javascript -->
+<script src="https://maps.googleapis.com/maps/api/js?callback=initmap/js key=AIzaSyDoOe2LkfYxq6PtnQUHXaHqWdWXRmP4e6o&callback=initMap" async defer></script>
+<script type="text/javascript" src="js/main.js"></script>
+<!-- maps javascript -->
+
+<!-- jquery -->
+<script>
+    $('.slider').slick(
+        {
+            autoplay:true,
+            autoplaySpeed:5000,
+            
+        }
+    );
+</script><!-- jquery -->
+
+</body>
+</html>
